@@ -1,0 +1,25 @@
+<table>
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>role</th>
+            <th>study</th>
+            <th>phone</th>
+            <th>address</th>
+            <th>previous_expreience</th>
+            <th>email</th>
+</tr></thead>
+<tbody>
+    @foreach($volunteer1 as $v)
+    <tr>
+        <td>{{$v->name}}</td>
+        <td>{{$v->role->type}}</td>
+        <td>{{$v->study}}</td>
+        <td>{{$v->phone}}</td>
+        <td>{{$v->address}}</td>
+        <td>{{$v->previous_experience}}</td>
+        <td>{{$v->email}}</td>
+</tr>
+@endforeach
+</tbody>
+</table>

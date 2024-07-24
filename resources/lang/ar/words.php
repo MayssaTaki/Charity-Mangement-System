@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'Name'=>'الاسم',
+    'Description'=>'الوصف',
+    'Donation_amount'=>'مبلغ التبرع',
+    'Search'=>'بحث',
+    'create campaign'=>'انشاء حملة',
+    'Edit'=>'تعديل',
+    'Delete'=>'حذف',
+    'View'=>'عرض',
+    'show'=>'عرض',
+    'entries'=>'مدخلات',
+    'Next'=>'التالي',
+    'Previous'=>'السابق',
+    'Add Campaign'=>'اضافة حملة',
+    'save'=>'حفظ ',
+    'Image'=>'صور',
+    'Choose File'=>'اختار ملف ',
+    'No file chosen'=>'لا يوجد ملف ',
+    'campaign'=>'حملة',
+    'Role'=>'وظيفة',
+    'role'=>'وظيفة',
+    'create role'=>'انشاء وظيفة',
+    'Add role'=>'اضافة وظيفة',
+    'Submit'=>'ارسال',
+    'Back'=>'رجوع',
+    'User'=>'مستخدم',
+    'username'=>'اسم المستخدم',
+    'create user'=>'انشاء مستخدم',
+    'Add user'=>'اضافة مستخدم',
+];
+
